@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/*===========================
+			HEADER AREA
+  ===========================*/
+
+.header-area{
+	background: #000;
+
+	width: 100%;
+	padding: 25px 0px;
+}
+.main-menu ul{
+	display: flex;
+	margin-bottom: 0;
+	justify-content: flex-end;
+}
+.main-menu ul li a{
+	color: #fff;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+.main-menu ul li a:hover{
+	color: #fec007;
+}
+.nav-bar-icon{
+	display: none;
+}
+.banner{
+	background: #c7ecee;
+	background-size: cover;
+	background-position: center;
+	height: auto;
+}
+
+
+
+/*===========================
+			ABOUT
+  ===========================*/
+
+.title h2{
+	color: #130f40;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 40px;
+	border-bottom: 2px solid #fff;
+	margin-bottom: 20px;
+}
+.about-page{
+	display: flex;
+}
+.about-image{
+	width: 45%;
+}
+.about-content{
+	width: 50%;
+	margin-left: 20px;
+	background: #000;
+	padding: 20px;
+}
+.about-content span{
+    font-size: 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+.about-content h3{
+    font-size: 30px;  
+    font-weight: bolder;
+    color: #6ab04c;
+}
+.about-content p{
+    font-size: 20px;
+    color: #fff;   
+}
+
+/*===========================
+			CONTACT
+  ===========================*/
+
+.contact{
+	padding: 100px 0;
+	background: #fff;
+}
+.contact h2{
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 2px solid #000;
+	margin-bottom: 10px;
+	font-weight: bolder;
+}
+.contact-content{
+	display: flex;
+	align-items: center;
+}
+.contact-logo{
+	width: 45%;
+}
+.our-form{
+	background: #2C3A47;
+	width: 50%;
+	padding: 25px;
+	margin: 50px 0;
+}
+.our-form label{
+	color: #fff;
+}
+.user{
+	display: flex;
+	justify-content: space-between;
+}
+.user input{
+	padding-right: 10px;
+	width: 48%;
+	margin-bottom: 20px;
+}
+
+
+/*===========================
+			FOOTER
+  ===========================*/
+
+footer{
+	background: #34495e;
+	padding: 20px 0;
+}
+.footer-area{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-left p{
+	color: #f1c40f;
+}
+.footer-social ul{
+	display: flex;
+	
+}
+.footer-social ul li a{
+	padding-left: 25px;
+	color: #fff;
+	font-size: 25px;
+}

@@ -1,0 +1,56 @@
+ @media ( max-width: 991px ) {
+
+	.main-menu{
+		position: absolute;
+		top: 85%;
+		left: 0%;
+		width: 100%;
+		background: #000;
+		display: none;
+	}
+	.main-menu ul li a{
+		padding: 20px;
+		display: block;
+	}
+	.main-menu ul{
+		display: block;
+	}
+	.menu-icon{
+		display: block;
+		text-align: right;
+	}
+	.menu-icon i{
+		color: #fff;
+		font-size: 25px;
+	}
+	.menu-close{
+		display: none;
+	}
+	
+
+}
+@media ( max-width: 768px){
+	.burger-content{
+		padding: 20px;
+	}
+	.about-page{
+		display: block;
+	}
+	.about-image{
+		width: 100%;
+	}
+	.about-content{
+		width: 100%;
+	}
+} 
+@media ( max-width: 425px){
+	.contact-content{
+		display: block;
+	}
+	.contact-logo{
+		width: 100%;
+	}
+	.our-form{
+		width: 100%;
+	}
+}
